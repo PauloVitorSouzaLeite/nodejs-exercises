@@ -1,0 +1,10 @@
+let tarefas = ["estudar", "treinar", "ler", "dormir cedo"]
+console.log(tarefas)
+tarefas.unshift("meditar")
+console.log(tarefas)
+tarefas.pop()
+console.log(tarefas)
+let parte_tarefas = tarefas.slice(2, 4)
+console.log(parte_tarefas)
+tarefas.splice(-1, 1, "cozinhar")
+console.log(tarefas)
